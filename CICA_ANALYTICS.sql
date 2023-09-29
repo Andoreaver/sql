@@ -1,0 +1,17 @@
+﻿CREATE TABLE [DMAPPS].[CICA_ANALYTICS] (
+    [APP_ID]                 NVARCHAR (20)   NULL,
+    [APP_ENTRY_DATE]         DATETIME2 (6)   NULL,
+    [ENTITY_ID]              NVARCHAR (20)   NULL,
+    [AMOUNT]                 NUMERIC (15, 3) NULL,
+    [CUSTOMER_EMAIL]         NVARCHAR (50)   NULL,
+    [EQUIPMENT_USE]          NVARCHAR (20)   NULL,
+    [HBE_CODE]               NVARCHAR (10)   NULL,
+    [IS_APPROVED]            NVARCHAR (10)   NULL,
+    [IS_DECISION_RECEIVED]   NVARCHAR (10)   NULL,
+    [IS_APP_SUBMITTED]       NVARCHAR (10)   NULL,
+    [LINE_OF_BUSINESS]       NVARCHAR (10)   NULL,
+    [TRANSACTION_ID]         NVARCHAR (50)   NULL,
+    [CUSTOMER_ZIPCODE]       NVARCHAR (20)   NULL,
+    [IS_CUSTOMER_EMAIL_SENT] NVARCHAR (10)   NULL
+);
+
